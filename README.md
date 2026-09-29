@@ -15,3 +15,5 @@ En el sitio, un solo grafo de `@import`, en este orden:
 ```
 
 `tokens-dark.css` vive bajo `.dark`. Sin esa clase, el sitio queda en claro. Las familias las carga `next/font` del sitio (`--typography-family-*`). Este paquete no trae `@font-face`.
+
+El siguiente cliente no depende de este repo. Duplicá el Figma y este paquete, cambiá el `name`, corré `npm run verify` y tageá. La receta está en el sitio starter, `docs/runbooks/fork-de-cliente.md`.
