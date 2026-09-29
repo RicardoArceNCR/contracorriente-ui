@@ -1,0 +1,348 @@
+{
+  "background": {
+    "page": {
+      "$type": "color",
+      "$value": "{color.neutral.50}"
+    },
+    "base": {
+      "$type": "color",
+      "$value": "{color.neutral.50}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.neutral.100}"
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{color.neutral.200}"
+    }
+  },
+  "surface": {
+    "base": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "raised": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "container": {
+      "$type": "color",
+      "$value": "{color.neutral.100}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.neutral.50}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.neutral.950}"
+    },
+    "inverse-subtle": {
+      "$type": "string",
+      "$value": "rgba(255, 255, 255, 0.11)"
+    },
+    "accent-bg": {
+      "$type": "color",
+      "$value": "{color.neutral.900}"
+    },
+    "accent-text": {
+      "$type": "color",
+      "$value": "{color.neutral.50}"
+    },
+    "accent-border": {
+      "$type": "color",
+      "$value": "{color.neutral.700}"
+    },
+    "highlight-bg": {
+      "$type": "color",
+      "$value": "{color.red.500}"
+    },
+    "highlight-text": {
+      "$type": "color",
+      "$value": "{color.neutral.50}"
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.neutral.950}"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{color.neutral.700}"
+    },
+    "tertiary": {
+      "$type": "color",
+      "$value": "{color.neutral.600}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.neutral.300}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.orange.800}"
+    },
+    "on-brand": {
+      "$type": "color",
+      "$value": "{color.neutral.950}"
+    },
+    "inverse-secondary": {
+      "$type": "string",
+      "$value": "rgba(255, 255, 255, 0.61)"
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.neutral.200}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.neutral.100}"
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{color.neutral.300}"
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.neutral.500}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.neutral.900}"
+    },
+    "inverse-subtle": {
+      "$type": "string",
+      "$value": "rgba(255, 255, 255, 0.72)"
+    }
+  },
+  "brand": {
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.orange.50}"
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{color.orange.600}"
+    },
+    "action": {
+      "$type": "color",
+      "$value": "{color.orange.500}"
+    },
+    "action-hover": {
+      "$type": "color",
+      "$value": "{color.orange.600}"
+    },
+    "action-press": {
+      "$type": "color",
+      "$value": "{color.orange.700}"
+    },
+    "font-display": {
+      "$type": "string",
+      "$value": "Sora"
+    },
+    "font-body": {
+      "$type": "string",
+      "$value": "Sora"
+    },
+    "font-mono": {
+      "$type": "string",
+      "$value": "IBM Plex Mono"
+    }
+  },
+  "feedback": {
+    "success": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.dartmouth.50}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.dartmouth.800}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.dartmouth.800}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{color.dartmouth.800}"
+      }
+    },
+    "warning": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.orange.50}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.orange.700}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.orange.800}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{color.orange.700}"
+      }
+    },
+    "error": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.red.50}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.red.700}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.red.800}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{color.red.700}"
+      }
+    },
+    "info": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.berkeley.50}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.berkeley.800}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.berkeley.900}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{color.berkeley.900}"
+      }
+    }
+  },
+  "focus": {
+    "ring-color": {
+      "$type": "color",
+      "$value": "{color.orange.700}"
+    },
+    "ring-offset": {
+      "$type": "color",
+      "$value": "{color.white}"
+    }
+  },
+  "interaction": {
+    "hover-overlay": {
+      "$type": "color",
+      "$value": "{color.black}"
+    },
+    "active-overlay": {
+      "$type": "color",
+      "$value": "{color.black}"
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.orange.800}"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{color.orange.900}"
+      },
+      "visited": {
+        "$type": "color",
+        "$value": "{color.berkeley.900}"
+      }
+    }
+  },
+  "overlay": {
+    "modal": {
+      "$type": "string",
+      "$value": "rgba(0, 0, 0, 0.7)"
+    },
+    "card": {
+      "$type": "string",
+      "$value": "rgba(0, 0, 0, 0.24)"
+    },
+    "hero": {
+      "$type": "string",
+      "$value": "rgba(0, 0, 0, 0.62)"
+    }
+  },
+  "divider": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.neutral.200}"
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{color.neutral.300}"
+    }
+  },
+  "typography": {
+    "heading": {
+      "size": {
+        "$type": "float",
+        "$value": 32
+      }
+    },
+    "subheading": {
+      "size": {
+        "$type": "float",
+        "$value": 28
+      }
+    },
+    "body": {
+      "size": {
+        "$type": "float",
+        "$value": 16
+      }
+    },
+    "label": {
+      "size": {
+        "$type": "float",
+        "$value": 14
+      }
+    },
+    "caption": {
+      "size": {
+        "$type": "float",
+        "$value": 12
+      }
+    },
+    "hero": {
+      "size": {
+        "$type": "float",
+        "$value": 104
+      }
+    }
+  },
+  "topic": {
+    "migration": {
+      "$type": "color",
+      "$value": "{color.jonquil.500}"
+    },
+    "environment": {
+      "$type": "color",
+      "$value": "{color.dartmouth.800}"
+    },
+    "corruption": {
+      "$type": "color",
+      "$value": "{color.berkeley.900}"
+    },
+    "gender": {
+      "$type": "color",
+      "$value": "{color.rebecca.800}"
+    }
+  }
+}
