@@ -16,4 +16,28 @@ En el sitio, un solo grafo de `@import`, en este orden:
 
 `tokens-dark.css` vive bajo `.dark`. Sin esa clase, el sitio queda en claro. Las familias las carga `next/font` del sitio (`--typography-family-*`). Este paquete no trae `@font-face`.
 
-El siguiente cliente no depende de este repo. Duplicá el Figma y este paquete, cambiá el `name`, corré `npm run verify` y tageá. La receta está en el sitio starter, `docs/runbooks/fork-de-cliente.md`.
+## Trabajo con tres repos
+
+Este paquete trabaja junto al sitio [contracorriente](https://github.com/RicardoArceNCR/contracorriente)
+y las prácticas compartidas de [estudio](https://github.com/RicardoArceNCR/estudio).
+En la máquina de Ricardo vive en `~/ui/contracorriente`; `~/ui` contiene
+varios paquetes y no es un solo repositorio. Las rutas pueden cambiar.
+
+Figma es la fuente de diseño. Exportar a `source/raw/`, ejecutar
+`npm run verify`, revisar y commitear los exports y `build/`. El comando
+verifica y genera archivos; no hace commits ni publica tags. Para consumir
+un cambio en el sitio se publica una versión autorizada con tag nuevo y se
+actualizan su dependencia y lockfile. Nunca mover un tag publicado.
+
+Para una tarea de sitio, este paquete puede consultarse en lectura; para
+cambiar tokens, se trabaja aquí siguiendo sus instrucciones. No editar el
+CSS del sitio para reemplazar la paleta ni modificar raw sin mantener su
+correspondencia con Figma.
+
+## Otro cliente
+
+Un cliente nuevo crea su propio sitio y paquete según
+[cliente-nuevo](https://github.com/RicardoArceNCR/estudio/blob/main/runbooks/cliente-nuevo.md).
+No duplicar este repositorio ni su identidad. La recomendación anterior de
+usar un starter queda reemplazada por el ADR 0001 de estudio y el ADR 0008
+del sitio ContraCorriente. Este paquete sigue siendo exclusivo del cliente.
