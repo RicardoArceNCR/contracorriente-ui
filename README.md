@@ -1,6 +1,6 @@
 # @contracorriente/ui
 
-Tokens de ContraCorriente. La fuente que se edita es el Figma. `source/raw/` es el export. El CSS de `build/` se genera y se versiona para que el sitio no corra Python.
+Tokens de ContraCorriente. La fuente que se edita es el Figma. `source/dtcg/` es el export nativo de Figma (DTCG), un archivo por colección; `scripts/dtcg-to-sd.mjs` lo convierte y las listas del cliente están en `tokens.config.json`. El CSS de `build/` se genera y se versiona para que el sitio no tenga que correr Style Dictionary.
 
 ```bash
 npm run verify
@@ -23,7 +23,10 @@ y las prácticas compartidas de [estudio](https://github.com/RicardoArceNCR/estu
 En la máquina de Ricardo vive en `~/ui/contracorriente`; `~/ui` contiene
 varios paquetes y no es un solo repositorio. Las rutas pueden cambiar.
 
-Figma es la fuente de diseño. Exportar a `source/raw/`, ejecutar
+Figma es la fuente de diseño. En Variables, clic derecho en cada colección
+que cambió → **Export modes**; guardar el JSON en `source/dtcg/` con el
+nombre de la colección (`primitivos.tokens.json`, no `Mode 1.tokens.json`),
+ejecutar
 `npm run verify`, revisar y commitear los exports y `build/`. El comando
 verifica y genera archivos; no hace commits ni publica tags. Para consumir
 un cambio en el sitio se publica una versión autorizada con tag nuevo y se
@@ -31,7 +34,7 @@ actualizan su dependencia y lockfile. Nunca mover un tag publicado.
 
 Para una tarea de sitio, este paquete puede consultarse en lectura; para
 cambiar tokens, se trabaja aquí siguiendo sus instrucciones. No editar el
-CSS del sitio para reemplazar la paleta ni modificar raw sin mantener su
+CSS del sitio para reemplazar la paleta ni modificar `source/dtcg/` sin mantener su
 correspondencia con Figma.
 
 ## Otro cliente
